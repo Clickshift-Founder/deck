@@ -1,0 +1,13 @@
+/* Prevent scroll bounce on iOS */
+html, body {
+  overscroll-behavior: none;
+}
+
+/* Full height on mobile */
+.min-h-screen {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
