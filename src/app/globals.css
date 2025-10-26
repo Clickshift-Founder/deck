@@ -1,3 +1,36 @@
+/* 1. Tailwind Directives MUST come first */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Your custom CSS variables and utility classes follow */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* Note: Ensure these variables are defined in your layout.tsx classname */
+  /* --font-sans: var(--font-geist-sans); */ 
+  /* --font-mono: var(--font-geist-mono); */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Prevent scroll bounce on iOS */
 html, body {
   overscroll-behavior: none;
@@ -8,6 +41,3 @@ html, body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

@@ -1,10 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, TrendingUp, Users, Target, Zap, DollarSign, Globe, Award, Rocket, Shield, Brain, Network, ArrowRight, Download, CheckCircle, AlertCircle, Activity, BarChart3, Layers, GitBranch, Star, ExternalLink } from 'lucide-react';
-import { Inter, Roboto_Mono } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-const robotoMono = Roboto_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 const ClickShiftPitchDeck = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
