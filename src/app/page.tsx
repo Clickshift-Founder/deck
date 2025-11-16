@@ -194,23 +194,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-red-900/20 to-purple-900/20 rounded-2xl p-8 border border-red-500/30">
-                  <div className="flex items-start space-x-6">
-                    <div className="text-5xl">💔</div>
-                    <div>
-                      <p className="text-2xl font-bold text-red-400 mb-3">The Founder's Pain</p>
-                      <p className="text-2xl italic text-slate-300 mb-4 leading-relaxed">
-                        "I lost 9 months of my salary trading crypto. I built what I wish existed self for myself, then for 525+  users, now positioning for 5k users and 50 agents."
-                      </p>
-                      <p className="text-xl text-slate-400 leading-relaxed">
-                        ClickShift exists to ensure my experience is not repeated. We're building the safety net Web3 desperately needs.
-                      </p>
-                      <p className="text-sm text-slate-500 mt-4">— Emmanuel Ohanwe, Founder & CEO</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-gradient-to-br from-orange-900/30 to-orange-600/20 rounded-2xl p-8 border border-orange-500/30 mt-8">
+                  <div className="bg-gradient-to-br from-orange-900/30 to-orange-600/20 rounded-2xl p-8 border border-orange-500/30 mt-8">
                   <div className="text-6xl mb-6">🤖</div>
                   <h3 className="text-3xl font-bold mb-6">The Emerging Agent Economy Has No Brain</h3>
                   <ul className="space-y-3 text-slate-300">
@@ -234,6 +218,24 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                 </div>
               </Slide>
             )}
+
+                <div className="bg-gradient-to-r from-red-900/20 to-purple-900/20 rounded-2xl p-8 border border-red-500/30">
+                  <div className="flex items-start space-x-6">
+                    <div className="text-5xl">💔</div>
+                    <div>
+                      <p className="text-2xl font-bold text-red-400 mb-3">The Founder's Pain</p>
+                      <p className="text-2xl italic text-slate-300 mb-4 leading-relaxed">
+                        "I lost 9 months of my salary trading crypto. I built what I wish existed, first for myself, then for 525+  users, now positioning for 5k users and 50 agents."
+                      </p>
+                      <p className="text-xl text-slate-400 leading-relaxed">
+                        ClickShift exists to ensure my experience is not repeated. We're building the safety net Web3 desperately needs.
+                      </p>
+                      <p className="text-sm text-slate-500 mt-4">— Emmanuel Ohanwe, Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+
+              
 
             {/* Slide 3: Solution */}
             {currentSlide === 2 && (
@@ -695,11 +697,11 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
             {/* Slide 7: Market Opportunity */}
             {currentSlide === 6 && (
               <Slide>
-                <h2 className="text-5xl font-bold mb-12 text-center">$50B Market Opportunity</h2>
+                <h2 className="text-5xl font-bold mb-12 text-center">$29B Market Opportunity</h2>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                   <div className="bg-gradient-to-br from-blue-900/30 to-purple-600/20 rounded-xl p-8 border border-blue-500/30">
-                    <h3 className="text-3xl font-bold mb-6">Addressable Market</h3>
+                    <h3 className="text-3xl font-bold mb-6">Traders Market Insight</h3>
                     <div className="space-y-5">
                       <div className="flex justify-between items-center pb-3 border-b border-slate-700">
                         <span className="text-slate-300 text-lg">Global Crypto Traders:</span>
@@ -711,7 +713,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                       </div>
                       <div className="flex justify-between items-center pb-3 border-b border-slate-700">
                         <span className="text-slate-300 text-lg">Lost to Poor Timing:</span>
-                        <span className="text-3xl font-bold text-red-400">$50B/yr</span>
+                        <span className="text-3xl font-bold text-red-400">$28B/yr</span>
                       </div>
                       <div className="flex justify-between items-center">
                         <span className="text-slate-300 text-lg">Prediction Markets:</span>
@@ -768,6 +770,58 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     </div>
                   </div>
                 </div>
+
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-left">
+                      <thead className="bg-slate-800/50">
+                        <tr>
+                          <th className="px-6 py-4 text-slate-300">Year</th>
+                          <th className="px-6 py-4 text-blue-400">Human Traders</th>
+                          <th className="px-6 py-4 text-orange-400">Agent APIs</th>
+                          <th className="px-6 py-4 text-green-400">Total ARR</th>
+                          <th className="px-6 py-4 text-purple-400">Users/Agents</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-700">
+                        <tr className="hover:bg-slate-800/30">
+                          <td className="px-6 py-4 font-semibold">2025</td>
+                          <td className="px-6 py-4 text-blue-400">$100K</td>
+                          <td className="px-6 py-4 text-orange-400">$30K</td>
+                          <td className="px-6 py-4 font-bold text-green-400">$130K</td>
+                          <td className="px-6 py-4 text-slate-300">525 / 15</td>
+                        </tr>
+                        <tr className="hover:bg-slate-800/30">
+                          <td className="px-6 py-4 font-semibold">2026</td>
+                          <td className="px-6 py-4 text-blue-400">$6M</td>
+                          <td className="px-6 py-4 text-orange-400">$5M</td>
+                          <td className="px-6 py-4 font-bold text-green-400">$11M</td>
+                          <td className="px-6 py-4 text-slate-300">5K / 200</td>
+                        </tr>
+                        <tr className="hover:bg-slate-800/30 bg-green-900/20">
+                          <td className="px-6 py-4 font-semibold">2027</td>
+                          <td className="px-6 py-4 text-blue-400">$37M</td>
+                          <td className="px-6 py-4 text-orange-400">$30M</td>
+                          <td className="px-6 py-4 font-bold text-2xl text-green-400">$67M</td>
+                          <td className="px-6 py-4 text-slate-300">50K / 1,500</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div className="mt-6 grid md:grid-cols-3 gap-4">
+                    <div className="bg-blue-500/10 rounded-lg p-4 border border-blue-500/30 text-center">
+                      <div className="text-sm text-slate-400 mb-1">B2C Growth Rate</div>
+                      <div className="text-2xl font-bold text-blue-400">185% YoY</div>
+                    </div>
+                    <div className="bg-orange-500/10 rounded-lg p-4 border border-orange-500/30 text-center">
+                      <div className="text-sm text-slate-400 mb-1">B2B Growth Rate</div>
+                      <div className="text-2xl font-bold text-orange-400">500% YoY</div>
+                    </div>
+                    <div className="bg-green-500/10 rounded-lg p-4 border border-green-500/30 text-center">
+                      <div className="text-sm text-slate-400 mb-1">Combined ARR</div>
+                      <div className="text-2xl font-bold text-green-400">$67M by 2027</div>
+                    </div>
+                  </div>
 
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700">
@@ -837,6 +891,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     <div className="text-sm text-slate-400 mb-1">Target Conversion</div>
                     <div className="text-2xl font-bold text-blue-400">30%</div>
                   </div>
+                  
 
                       {/* B2B - Agent APIs */}
                   <div className="bg-gradient-to-br from-orange-900/40 to-orange-600/20 rounded-2xl p-8 border border-orange-500/30">
