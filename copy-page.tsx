@@ -797,86 +797,69 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
             {/* Slide 8: Business Model */}
             {currentSlide === 7 && (
               <Slide>
-             <h2 className="text-5xl font-bold mb-12 text-center">Dual Revenue Model: B2C + B2B</h2>
+                <h2 className="text-5xl font-bold mb-12 text-center">Multiple Revenue Streams to $50M ARR</h2>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
-                   {/* B2C - Human Traders */}
-                    <div className="bg-gradient-to-br from-blue-900/40 to-blue-600/20 rounded-2xl p-8 border border-blue-500/30">
-                  <div className="flex items-center space-x-3 mb-6">
-                    <div className="text-5xl">👤</div>
-                    <h3 className="text-3xl font-bold text-blue-400">B2C - Human Traders</h3>
-                  </div>
-                  
-                  <div className="space-y-4">
-                    <div className="bg-slate-800/50 rounded-lg p-4 border border-slate-700">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="font-semibold text-slate-300">Free Tier</span>
-                        <span className="text-2xl font-bold text-blue-400">$0</span>
+                  <div className="space-y-6">
+                    <div className="bg-gradient-to-br from-blue-900/30 to-blue-600/20 rounded-xl p-6 border border-blue-500/30">
+                      <h3 className="text-2xl font-bold mb-4 text-blue-400">Phase 1: Platform (2026)</h3>
+                      <div className="space-y-4">
+                        <div>
+                          <div className="flex justify-between mb-2 text-lg">
+                            <span className="text-slate-300 font-semibold">Freemium SaaS</span>
+                            <span className="font-bold text-green-400">Q1 2026</span>
+                          </div>
+                          <div className="text-sm text-slate-400 pl-4">
+                            • Free: 10 analyses/day<br/>
+                            • Pro: $29/mo unlimited<br/>
+                            • Premium: $99/mo + API
+                          </div>
+                        </div>
+                        
+                        <div className="pt-4 border-t border-slate-700">
+                          <div className="flex justify-between mb-2">
+                            <span className="text-slate-300 text-lg font-semibold">2026 Target:</span>
+                            <span className="text-3xl font-bold text-green-400">$2M ARR</span>
+                          </div>
+                          <div className="text-sm text-slate-400 pl-4">
+                            5,000 paid users @ $40 ARPU
+                          </div>
+                        </div>
                       </div>
-                      <div className="text-sm text-slate-400">10 analyses/month • Basic features</div>
                     </div>
-                    
-                    <div className="bg-slate-800/50 rounded-lg p-4 border border-blue-500/50">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="font-semibold text-slate-300">Pro</span>
-                        <span className="text-2xl font-bold text-blue-400">$79/mo</span>
-                      </div>
-                      <div className="text-sm text-slate-400">Unlimited analyses • All features</div>
-                    </div>
-                    
-                    <div className="bg-slate-800/50 rounded-lg p-4 border border-purple-500/50">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="font-semibold text-slate-300">Premium</span>
-                        <span className="text-2xl font-bold text-purple-400">$199/mo</span>
-                      </div>
-                      <div className="text-sm text-slate-400">AI features • Priority support</div>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-6 p-4 bg-blue-500/10 rounded-lg border border-blue-500/30">
-                    <div className="text-sm text-slate-400 mb-1">Target Conversion</div>
-                    <div className="text-2xl font-bold text-blue-400">30%</div>
-                  </div>
 
-                      {/* B2B - Agent APIs */}
-                  <div className="bg-gradient-to-br from-orange-900/40 to-orange-600/20 rounded-2xl p-8 border border-orange-500/30">
-                    <div className="flex items-center space-x-3 mb-6">
-                      <div className="text-5xl">🤖</div>
-                      <h3 className="text-3xl font-bold text-orange-400">B2B - Agent APIs</h3>
-                    </div>
-                    
-                    <div className="space-y-4">
-                      <div className="bg-slate-800/50 rounded-lg p-4 border border-slate-700">
-                        <div className="flex justify-between items-center mb-2">
-                          <span className="font-semibold text-slate-300">Starter</span>
-                          <span className="text-2xl font-bold text-orange-400">$49/mo</span>
+                    <div className="bg-gradient-to-br from-purple-900/30 to-purple-600/20 rounded-xl p-6 border border-purple-500/30">
+                      <h3 className="text-2xl font-bold mb-4 text-purple-400">Phase 2: Protocol (2027-28)</h3>
+                      <div className="space-y-4">
+                        <div>
+                          <div className="flex justify-between mb-2 text-lg">
+                            <span className="text-slate-300 font-semibold">API Licenses</span>
+                            <span className="font-bold">$5K-50K/mo</span>
+                          </div>
+                          <div className="text-sm text-slate-400 pl-4">
+                            DEXs, wallets, bots integrate our predictions
+                          </div>
                         </div>
-                        <div className="text-sm text-slate-400">10K API calls • Basic modules</div>
-                      </div>
-                      
-                      <div className="bg-slate-800/50 rounded-lg p-4 border border-orange-500/50">
-                        <div className="flex justify-between items-center mb-2">
-                          <span className="font-semibold text-slate-300">Pro</span>
-                          <span className="text-2xl font-bold text-orange-400">$199/mo</span>
+                        
+                        <div>
+                          <div className="flex justify-between mb-2 text-lg">
+                            <span className="text-slate-300 font-semibold">Protocol Fees</span>
+                            <span className="font-bold">0.1% volume</span>
+                          </div>
+                          <div className="text-sm text-slate-400 pl-4">
+                            On $1B prediction market volume = $1M/year
+                          </div>
                         </div>
-                        <div className="text-sm text-slate-400">100K calls • All 8 modules</div>
-                      </div>
-                      
-                      <div className="bg-slate-800/50 rounded-lg p-4 border border-emerald-500/50">
-                        <div className="flex justify-between items-center mb-2">
-                          <span className="font-semibold text-slate-300">Enterprise</span>
-                          <span className="text-2xl font-bold text-emerald-400">Custom</span>
+
+                        <div className="pt-4 border-t border-slate-700">
+                          <div className="flex justify-between mb-2">
+                            <span className="text-slate-300 text-lg font-semibold">2028 Target:</span>
+                            <span className="text-3xl font-bold text-purple-400">$50M ARR</span>
+                          </div>
                         </div>
-                        <div className="text-sm text-slate-400">Unlimited • White-label • SLA</div>
                       </div>
-                    </div>
-                    
-                    <div className="mt-6 p-4 bg-orange-500/10 rounded-lg border border-orange-500/30">
-                      <div className="text-sm text-slate-400 mb-1">Target by 2027</div>
-                      <div className="text-2xl font-bold text-orange-400">60% of Revenue</div>
                     </div>
                   </div>
-                </div>
 
                   <div className="space-y-6">
                     <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700">
@@ -925,21 +908,13 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 rounded-xl p-6 border border-green-500/30 text-center">
-              <p className="text-2xl font-bold text-green-400">
-                Two Markets, One Intelligence Engine
-              </p>
-              <p className="text-slate-300 mt-2">
-                Proven with humans (525 DAU) → Scale with agents (50K+ by 2027)
-              </p>
-            </div>
+                <div className="bg-gradient-to-r from-purple-600/20 to-blue-600/20 rounded-xl p-6 border border-purple-500/30 text-center">
+                  <p className="text-xl font-semibold">
+                    Path to <span className="text-green-400">$50M ARR by 2028</span>: Platform fees + Protocol revenue + Token value
+                  </p>
+                </div>
               </Slide>
             )}
-
-            
-            
-
-
 
             {/* Slide 9: Protocol Vision */}
             {currentSlide === 8 && (
