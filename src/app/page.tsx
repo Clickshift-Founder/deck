@@ -143,7 +143,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
             {/* Slide 2: Problem */}
             {currentSlide === 1 && (
               <Slide>
-                <h2 className="text-5xl font-bold mb-12 text-center">The $50 Billion Problem</h2>
+                <h2 className="text-5xl font-bold mb-12 text-center">The $29 Billion Problem</h2>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-12">
                   <div className="bg-gradient-to-br from-red-900/30 to-red-600/20 rounded-2xl p-8 border border-red-500/30">
@@ -216,10 +216,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     </li>
                   </ul>
                 </div>
-              </Slide>
-            )}
 
-                <div className="bg-gradient-to-r from-red-900/20 to-purple-900/20 rounded-2xl p-8 border border-red-500/30">
+                 <div className="bg-gradient-to-r from-red-900/20 to-purple-900/20 rounded-2xl p-8 border border-red-500/30">
                   <div className="flex items-start space-x-6">
                     <div className="text-5xl">💔</div>
                     <div>
@@ -234,6 +232,10 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     </div>
                   </div>
                 </div>
+              </Slide>
+            )}
+
+               
 
               
 
