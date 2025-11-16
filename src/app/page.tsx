@@ -105,7 +105,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     The Bloomberg Terminal for DeFi
                   </h2>
                   <p className="text-xl text-slate-400 mb-12 max-w-2xl mx-auto">
-                    Building the Prediction Intelligence Protocol to onboard the next 10 million users to Web3
+                    Building the Prediction Intelligence Protocol that powers Autonomous agents and traders onchain
                   </p>
                   
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 max-w-4xl mx-auto">
