@@ -1371,7 +1371,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     Orange DAO: $100K Strategic Investment
                   </p>
                   <p className="text-slate-300">
-                    Their capital + network access to Solana agent builders = perfect strategic fit
+                    Your capital + network access to Solana agent builders = perfect strategic fit for us.
                   </p>
                 </div>
 
