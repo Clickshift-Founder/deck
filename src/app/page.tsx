@@ -773,57 +773,30 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                   </div>
                 </div>
 
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-left">
-                      <thead className="bg-slate-800/50">
-                        <tr>
-                          <th className="px-6 py-4 text-slate-300">Year</th>
-                          <th className="px-6 py-4 text-blue-400">Human Traders</th>
-                          <th className="px-6 py-4 text-orange-400">Agent APIs</th>
-                          <th className="px-6 py-4 text-green-400">Total ARR</th>
-                          <th className="px-6 py-4 text-purple-400">Users/Agents</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-700">
-                        <tr className="hover:bg-slate-800/30">
-                          <td className="px-6 py-4 font-semibold">2025</td>
-                          <td className="px-6 py-4 text-blue-400">$100K</td>
-                          <td className="px-6 py-4 text-orange-400">$30K</td>
-                          <td className="px-6 py-4 font-bold text-green-400">$130K</td>
-                          <td className="px-6 py-4 text-slate-300">525 / 15</td>
-                        </tr>
-                        <tr className="hover:bg-slate-800/30">
-                          <td className="px-6 py-4 font-semibold">2026</td>
-                          <td className="px-6 py-4 text-blue-400">$6M</td>
-                          <td className="px-6 py-4 text-orange-400">$5M</td>
-                          <td className="px-6 py-4 font-bold text-green-400">$11M</td>
-                          <td className="px-6 py-4 text-slate-300">5K / 200</td>
-                        </tr>
-                        <tr className="hover:bg-slate-800/30 bg-green-900/20">
-                          <td className="px-6 py-4 font-semibold">2027</td>
-                          <td className="px-6 py-4 text-blue-400">$37M</td>
-                          <td className="px-6 py-4 text-orange-400">$30M</td>
-                          <td className="px-6 py-4 font-bold text-2xl text-green-400">$67M</td>
-                          <td className="px-6 py-4 text-slate-300">50K / 1,500</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+             
+                              <tr className="hover:bg-slate-800/20 bg-orange-500/10">
+                    <td className="px-6 py-4 font-semibold text-orange-400">Agent APIs</td>
+                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                    <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                  </tr>
+                  <tr className="hover:bg-slate-800/20">
+                    <td className="px-6 py-4 font-semibold text-purple-400">8 Intelligence Modules</td>
+                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                    <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                  </tr>
 
-                  <div className="mt-6 grid md:grid-cols-3 gap-4">
-                    <div className="bg-blue-500/10 rounded-lg p-4 border border-blue-500/30 text-center">
-                      <div className="text-sm text-slate-400 mb-1">B2C Growth Rate</div>
-                      <div className="text-2xl font-bold text-blue-400">185% YoY</div>
-                    </div>
-                    <div className="bg-orange-500/10 rounded-lg p-4 border border-orange-500/30 text-center">
-                      <div className="text-sm text-slate-400 mb-1">B2B Growth Rate</div>
-                      <div className="text-2xl font-bold text-orange-400">500% YoY</div>
-                    </div>
-                    <div className="bg-green-500/10 rounded-lg p-4 border border-green-500/30 text-center">
-                      <div className="text-sm text-slate-400 mb-1">Combined ARR</div>
-                      <div className="text-2xl font-bold text-green-400">$67M by 2027</div>
-                    </div>
-                  </div>
+
+                                <div className="bg-gradient-to-r from-orange-600/20 to-purple-600/20 rounded-xl p-6 border border-orange-500/30 text-center mt-8">
+                <p className="text-2xl font-bold text-orange-400">
+                  🧠 Our Moat: Only prediction infrastructure purpose-built for the agent economy
+                </p>
+                <p className="text-slate-300 mt-2">
+                  First-mover advantage in fastest-growing segment of Web3
+                </p>
+              </div>
+
 
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700">
@@ -981,6 +954,59 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     </div>
                   </div>
                 </div>
+
+
+                              <div className="overflow-x-auto">
+                <table className="w-full text-left">
+                  <thead className="bg-slate-800/50">
+                    <tr>
+                      <th className="px-6 py-4 text-slate-300">Year</th>
+                      <th className="px-6 py-4 text-blue-400">Human Traders</th>
+                      <th className="px-6 py-4 text-orange-400">Agent APIs</th>
+                      <th className="px-6 py-4 text-green-400">Total ARR</th>
+                      <th className="px-6 py-4 text-purple-400">Users/Agents</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-700">
+                    <tr className="hover:bg-slate-800/30">
+                      <td className="px-6 py-4 font-semibold">2025</td>
+                      <td className="px-6 py-4 text-blue-400">$100K</td>
+                      <td className="px-6 py-4 text-orange-400">$30K</td>
+                      <td className="px-6 py-4 font-bold text-green-400">$130K</td>
+                      <td className="px-6 py-4 text-slate-300">525 / 15</td>
+                    </tr>
+                    <tr className="hover:bg-slate-800/30">
+                      <td className="px-6 py-4 font-semibold">2026</td>
+                      <td className="px-6 py-4 text-blue-400">$6M</td>
+                      <td className="px-6 py-4 text-orange-400">$5M</td>
+                      <td className="px-6 py-4 font-bold text-green-400">$11M</td>
+                      <td className="px-6 py-4 text-slate-300">5K / 200</td>
+                    </tr>
+                    <tr className="hover:bg-slate-800/30 bg-green-900/20">
+                      <td className="px-6 py-4 font-semibold">2027</td>
+                      <td className="px-6 py-4 text-blue-400">$37M</td>
+                      <td className="px-6 py-4 text-orange-400">$30M</td>
+                      <td className="px-6 py-4 font-bold text-2xl text-green-400">$67M</td>
+                      <td className="px-6 py-4 text-slate-300">50K / 1,500</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="mt-6 grid md:grid-cols-3 gap-4">
+                <div className="bg-blue-500/10 rounded-lg p-4 border border-blue-500/30 text-center">
+                  <div className="text-sm text-slate-400 mb-1">B2C Growth Rate</div>
+                  <div className="text-2xl font-bold text-blue-400">185% YoY</div>
+                </div>
+                <div className="bg-orange-500/10 rounded-lg p-4 border border-orange-500/30 text-center">
+                  <div className="text-sm text-slate-400 mb-1">B2B Growth Rate</div>
+                  <div className="text-2xl font-bold text-orange-400">500% YoY</div>
+                </div>
+                <div className="bg-green-500/10 rounded-lg p-4 border border-green-500/30 text-center">
+                  <div className="text-sm text-slate-400 mb-1">Combined ARR</div>
+                  <div className="text-2xl font-bold text-green-400">$67M by 2027</div>
+                </div>
+              </div>
 
                 <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 rounded-xl p-6 border border-green-500/30 text-center">
               <p className="text-2xl font-bold text-green-400">
@@ -1320,6 +1346,33 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                       </div>
                     </div>
                   </div>
+                </div>
+
+
+                                <div className="grid md:grid-cols-3 gap-6 mb-8">
+                  <div className="bg-purple-500/10 rounded-xl p-6 border border-purple-500/30">
+                    <div className="text-sm text-slate-400 mb-2">Total Round</div>
+                    <div className="text-4xl font-bold text-purple-400">$1.5M</div>
+                  </div>
+                  <div className="bg-blue-500/10 rounded-xl p-6 border border-blue-500/30">
+                    <div className="text-sm text-slate-400 mb-2">Angel Investors</div>
+                    <div className="text-4xl font-bold text-blue-400">$300K</div>
+                    <div className="text-xs text-slate-500 mt-1">Soft commits</div>
+                  </div>
+                  <div className="bg-orange-500/10 rounded-xl p-6 border border-orange-500/30">
+                    <div className="text-sm text-slate-400 mb-2">Lead + Strategic</div>
+                    <div className="text-4xl font-bold text-orange-400">$1.2M</div>
+                    <div className="text-xs text-slate-500 mt-1">Seeking</div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 rounded-xl p-6 border border-green-500/30">
+                  <p className="text-xl font-semibold text-green-400 mb-2">
+                    Orange DAO: $100K Strategic Investment
+                  </p>
+                  <p className="text-slate-300">
+                    Their capital + network access to Solana agent builders = perfect strategic fit
+                  </p>
                 </div>
 
                 <div className="bg-slate-800/50 rounded-xl p-8 border border-slate-700 mb-8">
