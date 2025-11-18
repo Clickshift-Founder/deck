@@ -6,7 +6,7 @@ const ClickShiftPitchDeck = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
   const [isTransitioning, setIsTransitioning] = useState<boolean>(false);
 
-  const totalSlides = 15;
+  const totalSlides = 16;
 
   const nextSlide = () => {
     if (currentSlide < totalSlides - 1 && !isTransitioning) {
@@ -696,6 +696,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
+
             {/* Slide 7: Market Opportunity */}
             {currentSlide === 6 && (
               <Slide>
@@ -774,29 +775,6 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                 </div>
 
              
-                              <tr className="hover:bg-slate-800/20 bg-orange-500/10">
-                    <td className="px-6 py-4 font-semibold text-orange-400">Agent APIs</td>
-                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
-                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
-                    <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
-                  </tr>
-                  <tr className="hover:bg-slate-800/20">
-                    <td className="px-6 py-4 font-semibold text-purple-400">8 Intelligence Modules</td>
-                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
-                    <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
-                    <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
-                  </tr>
-
-
-                                <div className="bg-gradient-to-r from-orange-600/20 to-purple-600/20 rounded-xl p-6 border border-orange-500/30 text-center mt-8">
-                <p className="text-2xl font-bold text-orange-400">
-                  🧠 Our Moat: Only prediction infrastructure purpose-built for the agent economy
-                </p>
-                <p className="text-slate-300 mt-2">
-                  First-mover advantage in fastest-growing segment of Web3
-                </p>
-              </div>
-
 
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-700">
@@ -823,8 +801,195 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
-            {/* Slide 8: Business Model */}
-            {currentSlide === 7 && (
+
+
+                          {/* Slide 8: Competitive Landscape - NEW */}
+              {currentSlide === 7 && (
+                <Slide>
+                  <h2 className="text-5xl font-bold mb-12 text-center">
+                    Competitive Landscape: We're Building Different
+                  </h2>
+
+                  <div className="bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-2xl p-8 border border-slate-600 mb-8 overflow-x-auto">
+                    <table className="w-full text-left">
+                      <thead>
+                        <tr className="border-b-2 border-slate-600">
+                          <th className="px-6 py-4 text-slate-300 font-bold text-lg">Feature</th>
+                          <th className="px-6 py-4 text-center text-slate-300 font-bold text-lg">
+                            DexScreener<br/>
+                            <span className="text-sm font-normal text-slate-400">(Charts)</span>
+                          </th>
+                          <th className="px-6 py-4 text-center text-slate-300 font-bold text-lg">
+                            Birdeye<br/>
+                            <span className="text-sm font-normal text-slate-400">(Analytics)</span>
+                          </th>
+                          <th className="px-6 py-4 text-center text-slate-300 font-bold text-lg">
+                            Polymarket<br/>
+                            <span className="text-sm font-normal text-slate-400">(Predictions)</span>
+                          </th>
+                          <th className="px-6 py-4 text-center text-purple-400 font-bold text-lg">
+                            ClickShift<br/>
+                            <span className="text-sm font-normal text-purple-300">(Infrastructure)</span>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-700">
+                        
+                        {/* Row 1: Real-time Analysis */}
+                        <tr className="hover:bg-slate-800/20">
+                          <td className="px-6 py-4 font-semibold">Real-time Token Analysis</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-2xl">✅</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-2xl">✅</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 2: Historical Data */}
+                        <tr className="hover:bg-slate-800/20">
+                          <td className="px-6 py-4 font-semibold">Historical Data</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-2xl">✅</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-2xl">✅</td>
+                          <td className="px-6 py-4 text-center text-yellow-400 text-2xl">⚠️</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 3: FUTURE Predictions */}
+                        <tr className="hover:bg-slate-800/20 bg-purple-900/20">
+                          <td className="px-6 py-4 font-semibold text-purple-400">
+                            Future Price Predictions
+                          </td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-yellow-400 text-2xl">⚠️</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 4: Exit Timing */}
+                        <tr className="hover:bg-slate-800/20 bg-purple-900/20">
+                          <td className="px-6 py-4 font-semibold text-purple-400">
+                            Exit Timing Signals
+                          </td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 5: Rug Pull Detection */}
+                        <tr className="hover:bg-slate-800/20 bg-purple-900/20">
+                          <td className="px-6 py-4 font-semibold text-purple-400">
+                            Rug Pull Detection
+                          </td>
+                          <td className="px-6 py-4 text-center text-yellow-400 text-2xl">⚠️</td>
+                          <td className="px-6 py-4 text-center text-yellow-400 text-2xl">⚠️</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 6: AI Learning */}
+                        <tr className="hover:bg-slate-800/20 bg-purple-900/20">
+                          <td className="px-6 py-4 font-semibold text-purple-400">
+                            AI Self-Learning System
+                          </td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 7: AGENT APIs - NEW */}
+                        <tr className="hover:bg-slate-800/20 bg-orange-500/10">
+                          <td className="px-6 py-4 font-semibold text-orange-400">
+                            Agent APIs
+                          </td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 8: 8 Intelligence Modules - NEW */}
+                        <tr className="hover:bg-slate-800/20 bg-orange-500/10">
+                          <td className="px-6 py-4 font-semibold text-orange-400">
+                            8 Intelligence Modules
+                          </td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 9: WebSocket Streams - NEW */}
+                        <tr className="hover:bg-slate-800/20 bg-orange-500/10">
+                          <td className="px-6 py-4 font-semibold text-orange-400">
+                            WebSocket Streaming APIs
+                          </td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-yellow-400 text-2xl">⚠️</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                        {/* Row 10: Education Platform */}
+                        <tr className="hover:bg-slate-800/20">
+                          <td className="px-6 py-4 font-semibold">Web3 Education Platform</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-red-400 text-2xl">❌</td>
+                          <td className="px-6 py-4 text-center text-green-400 text-3xl font-bold">✅</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+
+                  {/* Our Moat - Three Columns */}
+                  <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="bg-gradient-to-br from-orange-900/40 to-orange-600/20 rounded-xl p-6 border border-orange-500/30">
+                      <div className="text-4xl mb-4 text-center">🧠</div>
+                      <h3 className="text-xl font-bold mb-3 text-orange-400 text-center">
+                        Infrastructure, Not Tool
+                      </h3>
+                      <p className="text-slate-300 text-center">
+                        We're the only prediction infrastructure built for agents. Competitors are consumer apps.
+                      </p>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-purple-900/40 to-purple-600/20 rounded-xl p-6 border border-purple-500/30">
+                      <div className="text-4xl mb-4 text-center">🎯</div>
+                      <h3 className="text-xl font-bold mb-3 text-purple-400 text-center">
+                        Predictive, Not Reactive
+                      </h3>
+                      <p className="text-slate-300 text-center">
+                        Our AI predicts what WILL happen, not just shows what DID happen. Patent-pending algorithms.
+                      </p>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-blue-900/40 to-blue-600/20 rounded-xl p-6 border border-blue-500/30">
+                      <div className="text-4xl mb-4 text-center">📊</div>
+                      <h3 className="text-xl font-bold mb-3 text-blue-400 text-center">
+                        Proven, Not Theoretical
+                      </h3>
+                      <p className="text-slate-300 text-center">
+                        525 DAU, 91 NPS, 73% accuracy. We've already validated the model works.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Bottom Callout */}
+                  <div className="bg-gradient-to-r from-orange-600/20 to-purple-600/20 rounded-xl p-6 border border-orange-500/30 text-center">
+                    <p className="text-2xl font-bold text-orange-400 mb-2">
+                      Our Moat: Only prediction infrastructure purpose-built for the agent economy
+                    </p>
+                    <p className="text-slate-300 text-lg">
+                      First-mover advantage in fastest-growing segment of Web3
+                    </p>
+                  </div>
+                </Slide>
+              )}
+
+            {/* Slide 9: Business Model */}
+            {currentSlide === 8 && (
               <Slide>
              <h2 className="text-5xl font-bold mb-12 text-center">Dual Revenue Model: B2C + B2B</h2>
 
@@ -1024,8 +1189,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
 
 
 
-            {/* Slide 9: Protocol Vision */}
-            {currentSlide === 8 && (
+            {/* Slide 10: Protocol Vision */}
+            {currentSlide === 9 && (
               <Slide>
                 <h2 className="text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
                   Protocol Vision: The "Chainlink for Predictions"
@@ -1128,8 +1293,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
-            {/* Slide 10: Multichain Expansion */}
-            {currentSlide === 9 && (
+            {/* Slide 11: Multichain Expansion */}
+            {currentSlide === 10 && (
               <Slide>
                 <h2 className="text-5xl font-bold mb-12 text-center">Multichain Expansion Strategy</h2>
 
@@ -1221,8 +1386,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
-            {/* Slide 11: Team */}
-            {currentSlide === 10 && (
+            {/* Slide 12: Team */}
+            {currentSlide === 11 && (
               <Slide>
                 <h2 className="text-5xl font-bold mb-12 text-center">Why We Win</h2>
 
@@ -1291,8 +1456,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
-            {/* Slide 12: The Ask */}
-            {currentSlide === 11 && (
+            {/* Slide 13: The Ask */}
+            {currentSlide === 12 && (
               <Slide>
                 <h2 className="text-5xl font-bold mb-12 text-center bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
                   The Ask: $1.5M Seed Round
@@ -1349,20 +1514,47 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                 </div>
 
 
-                                <div className="grid md:grid-cols-3 gap-6 mb-8">
-                  <div className="bg-purple-500/10 rounded-xl p-6 border border-purple-500/30">
-                    <div className="text-sm text-slate-400 mb-2">Total Round</div>
+                              <div className="grid md:grid-cols-3 gap-6 mb-8">
+                  <div className="bg-purple-500/10 rounded-xl p-6 border border-purple-500/30 text-center">
+                    <div className="text-sm text-slate-400 mb-2">Raising</div>
                     <div className="text-4xl font-bold text-purple-400">$1.5M</div>
+                    <div className="text-xs text-slate-500 mt-1">Seed round</div>
                   </div>
-                  <div className="bg-blue-500/10 rounded-xl p-6 border border-blue-500/30">
-                    <div className="text-sm text-slate-400 mb-2">Angel Investors</div>
-                    <div className="text-4xl font-bold text-blue-400">$300K</div>
-                    <div className="text-xs text-slate-500 mt-1">Soft commits</div>
+                  
+                  <div className="bg-blue-500/10 rounded-xl p-6 border border-blue-500/30 text-center">
+                    <div className="text-sm text-slate-400 mb-2">Structure</div>
+                    <div className="text-4xl font-bold text-blue-400">SAFE</div>
+                    <div className="text-xs text-slate-500 mt-1">Post-money</div>
                   </div>
-                  <div className="bg-orange-500/10 rounded-xl p-6 border border-orange-500/30">
-                    <div className="text-sm text-slate-400 mb-2">Lead + Strategic</div>
-                    <div className="text-4xl font-bold text-orange-400">$1.2M</div>
-                    <div className="text-xs text-slate-500 mt-1">Seeking</div>
+                  
+                  <div className="bg-green-500/10 rounded-xl p-6 border border-green-500/30 text-center">
+                    <div className="text-sm text-slate-400 mb-2">Runway</div>
+                    <div className="text-4xl font-bold text-green-400">18mo</div>
+                    <div className="text-xs text-slate-500 mt-1">To $2M ARR</div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-orange-600/20 to-purple-600/20 rounded-xl p-6 border border-orange-500/30 mb-8">
+                  <h3 className="text-xl font-semibold text-orange-400 mb-3 text-center">
+                    Why Orange DAO is Strategic
+                  </h3>
+                  <div className="grid md:grid-cols-2 gap-4 text-slate-300">
+                    <div className="flex items-start space-x-2">
+                      <span className="text-orange-400">•</span>
+                      <span>$100K investment validates agent infrastructure thesis</span>
+                    </div>
+                    <div className="flex items-start space-x-2">
+                      <span className="text-orange-400">•</span>
+                      <span>Network access to Solana agent builders</span>
+                    </div>
+                    <div className="flex items-start space-x-2">
+                      <span className="text-orange-400">•</span>
+                      <span>Technical guidance from Web3 operators</span>
+                    </div>
+                    <div className="flex items-start space-x-2">
+                      <span className="text-orange-400">•</span>
+                      <span>Opens doors to follow-on investors</span>
+                    </div>
                   </div>
                 </div>
 
@@ -1371,7 +1563,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
                     Orange DAO: $100K Strategic Investment
                   </p>
                   <p className="text-slate-300">
-                    Your capital + network access to Solana agent builders = perfect strategic fit for us.
+                    Your capital + network access to Solana agent builders makes you a perfect and strategic fit for us.
                   </p>
                 </div>
 
@@ -1431,8 +1623,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
-            {/* Slide 13: Why Now */}
-            {currentSlide === 12 && (
+            {/* Slide 14: Why Now */}
+            {currentSlide === 13 && (
               <Slide>
                 <h2 className="text-5xl font-bold mb-12 text-center">Why Now?</h2>
 
@@ -1528,8 +1720,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
-            {/* Slide 14: Vision */}
-            {currentSlide === 13 && (
+            {/* Slide 15: Vision */}
+            {currentSlide === 14 && (
               <Slide>
                 <h2 className="text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 via-blue-400 to-green-400 bg-clip-text text-transparent">
                   The Vision: Make Web3 safe and profitable with intelligence for the rest of the world new to this space.
@@ -1592,8 +1784,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
               </Slide>
             )}
 
-            {/* Slide 15: Contact */}
-            {currentSlide === 14 && (
+            {/* Slide 16: Contact */}
+            {currentSlide === 15 && (
               <Slide className="flex items-center justify-center">
                 <div className="text-center max-w-3xl">
                   <div className="text-8xl mb-8">⚡</div>
