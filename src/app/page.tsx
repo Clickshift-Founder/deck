@@ -364,7 +364,7 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
 
                 <div className="bg-gradient-to-r from-purple-600/20 to-blue-600/20 rounded-xl p-6 border border-purple-500/30 text-center">
                   <p className="text-xl font-semibold text-purple-300">
-                    🎯 Mission: When 80% of the world is onchain, solutions like ClickShift becomes the intelligence that becomes a compass for newbies and a trigger for autonomous bots.
+                    🎯 Mission: When 80% of the world is onchain, solutions like ClickShift becomes the intelligence that serves as a compass for newbies and a trigger for autonomous bots.
                   </p>
                 </div>
               </Slide>
@@ -1724,12 +1724,12 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
             {currentSlide === 14 && (
               <Slide>
                 <h2 className="text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 via-blue-400 to-green-400 bg-clip-text text-transparent">
-                  The Vision: Make Web3 safe and profitable with intelligence for the rest of the world new to this space.
+                  The Vision: Make Web3 safe and profitable with intelligence for the rest of the world yet come on-chain.
                 </h2>
 
                 <div className="bg-gradient-to-br from-blue-900/30 to-purple-600/20 rounded-2xl p-8 border border-blue-500/30 mb-8">
                   <p className="text-2xl text-center text-slate-200 mb-6 italic">
-                    "🎯 Mission: When 80% of the world is onchain, solutions like ClickShift becomes the intelligence that becomes a compass for newbies and a trigger for autonomous bots."
+                    "🎯 Mission: When 80% of the world is onchain, solutions like ClickShift becomes the intelligence that serves as a compass for newbies and a trigger for autonomous bots."
                   </p>
                   <p className="text-center text-slate-400">
                     ClickShift is the bridge that makes this future possible.
