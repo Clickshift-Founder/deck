@@ -347,89 +347,89 @@ const JupiterClickBotDeck = () => {
             )}
 
             {/* Slide 5: Why Jupiter Integration Matters */}
-            {currentSlide === 4 && (
-              <Slide>
-                <h2 className="text-5xl font-bold mb-12 text-center">Why Jupiter Powers ClickBot</h2>
+{currentSlide === 4 && (
+  <Slide>
+    <h2 className="text-5xl font-bold mb-12 text-center">Why Jupiter Powers ClickBot</h2>
 
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <div className="bg-gradient-to-br from-orange-900/40 to-orange-600/20 rounded-2xl p-8 border border-orange-500/30">
-                    <div className="text-6xl mb-6 text-center">⚡</div>
-                    <h3 className="text-3xl font-bold mb-6 text-center text-orange-400">What We Use Jupiter For</h3>
-                    <ul className="space-y-4 text-slate-300 text-lg">
-                      <li className="flex items-start space-x-3">
-                        <span className="text-orange-400">•</span>
-                        <span><strong>Quote API:</strong> Get best swap rates</span>
-                      </li>
-                      <li className="flex items-start space-x-3">
-                        <span className="text-orange-400">•</span>
-                        <span><strong>Swap API:</strong> Execute all trades</span>
-                      </li>
-                      <li className="flex items-start space-x-3">
-                        <span className="text-orange-400">•</span>
-                        <span><strong>Liquidity routing:</strong> Best execution</span>
-                      </li>
-                      <li className="flex items-start space-x-3">
-                        <span className="text-orange-400">•</span>
-                        <span><strong>Token metadata:</strong> Price, decimals, info</span>
-                      </li>
-                    </ul>
-                  </div>
+    <div className="grid md:grid-cols-2 gap-8 mb-8">
+      <div className="bg-gradient-to-br from-orange-900/40 to-orange-600/20 rounded-2xl p-8 border border-orange-500/30">
+        <div className="text-6xl mb-6 text-center">⚡</div>
+        <h3 className="text-3xl font-bold mb-6 text-center text-orange-400">What We Use Jupiter For</h3>
+        <ul className="space-y-4 text-slate-300 text-lg">
+          <li className="flex items-start space-x-3">
+            <span className="text-orange-400">•</span>
+            <span><strong>Quote API:</strong> Get best swap rates</span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-orange-400">•</span>
+            <span><strong>Swap API:</strong> Execute all trades</span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-orange-400">•</span>
+            <span><strong>Liquidity routing:</strong> Best execution</span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-orange-400">•</span>
+            <span><strong>Token metadata:</strong> Price, decimals, info</span>
+          </li>
+        </ul>
+      </div>
 
-                  <div className="bg-gradient-to-br from-green-900/40 to-green-600/20 rounded-2xl p-8 border border-green-500/30">
-                    <div className="text-6xl mb-6 text-center">🤝</div>
-                    <h3 className="text-3xl font-bold mb-6 text-center text-green-400">Why Partnership Makes Sense</h3>
-                    <ul className="space-y-4 text-slate-300 text-lg">
-                      <li className="flex items-start space-x-3">
-                        <span className="text-green-400">•</span>
-                        <span>We drive $1.2M+/week volume to Jupiter</span>
-                      </li>
-                      <li className="flex items-start space-x-3">
-                        <span className="text-green-400">•</span>
-                        <span>Growing 22% WoW = more Jupiter volume</span>
-                      </li>
-                      <li className="flex items-start space-x-3">
-                        <span className="text-green-400">•</span>
-                        <span>Onboard mobile-first users to Solana</span>
-                      </li>
-                      <li className="flex items-start space-x-3">
-                        <span className="text-green-400">•</span>
-                        <span>Showcase Jupiter's API capabilities</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <div className="bg-gradient-to-br from-green-900/40 to-green-600/20 rounded-2xl p-8 border border-green-500/30">
+        <div className="text-6xl mb-6 text-center">🤝</div>
+        <h3 className="text-3xl font-bold mb-6 text-center text-green-400">Why Partnership Makes Sense</h3>
+        <ul className="space-y-4 text-slate-300 text-lg">
+          <li className="flex items-start space-x-3">
+            <span className="text-green-400">•</span>
+            <span>We drive $1.2M+/week volume to Jupiter</span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-green-400">•</span>
+            <span>Growing 22% WoW = more Jupiter volume</span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-green-400">•</span>
+            <span>Onboard mobile-first users to Solana</span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-green-400">•</span>
+            <span>Showcase Jupiter&apos;s API capabilities</span>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-                <div className="bg-slate-800/50 rounded-xl p-8 border border-slate-700 mb-8">
-                  <h3 className="text-2xl font-bold mb-6 text-center">Volume Growth Trajectory</h3>
-                  <div className="grid md:grid-cols-3 gap-6">
-                    <div className="text-center">
-                      <div className="text-4xl font-bold text-orange-400 mb-2">$1.2M</div>
-                      <div className="text-slate-400">Current Weekly Volume</div>
-                      <div className="text-sm text-green-400 mt-1">All via Jupiter</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-4xl font-bold text-purple-400 mb-2">$15M</div>
-                      <div className="text-slate-400">Projected Q1 2026/div>
-                      <div className="text-sm text-green-400 mt-1">At 5K users</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-4xl font-bold text-blue-400 mb-2">$200M</div>
-                      <div className="text-slate-400">Projected Q4 2026</div>
-                      <div className="text-sm text-green-400 mt-1">At 50K users</div>
-                    </div>
-                  </div>
-                </div>
+    <div className="bg-slate-800/50 rounded-xl p-8 border border-slate-700 mb-8">
+      <h3 className="text-2xl font-bold mb-6 text-center">Volume Growth Trajectory</h3>
+      <div className="grid md:grid-cols-3 gap-6">
+        <div className="text-center">
+          <div className="text-4xl font-bold text-orange-400 mb-2">$1.2M</div>
+          <div className="text-slate-400">Current Weekly Volume</div>
+          <div className="text-sm text-green-400 mt-1">All via Jupiter</div>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl font-bold text-purple-400 mb-2">$15M</div>
+          <div className="text-slate-400">Projected Q1 2026</div>
+          <div className="text-sm text-green-400 mt-1">At 5K users</div>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl font-bold text-blue-400 mb-2">$200M</div>
+          <div className="text-slate-400">Projected Q4 2026</div>
+          <div className="text-sm text-green-400 mt-1">At 50K users</div>
+        </div>
+      </div>
+    </div>
 
-                <div className="bg-gradient-to-r from-orange-600/20 to-purple-600/20 rounded-xl p-6 border border-orange-500/30 text-center">
-                  <p className="text-2xl font-bold text-orange-400 mb-2">
-                    ClickBot makes Jupiter accessible to 900M Telegram users
-                  </p>
-                  <p className="text-slate-300">
-                    We're your mobile growth engine
-                  </p>
-                </div>
-              </Slide>
-            )}
+    <div className="bg-gradient-to-r from-orange-600/20 to-purple-600/20 rounded-xl p-6 border border-orange-500/30 text-center">
+      <p className="text-2xl font-bold text-orange-400 mb-2">
+        ClickBot makes Jupiter accessible to 900M Telegram users
+      </p>
+      <p className="text-slate-300">
+        We&apos;re your mobile growth engine
+      </p>
+    </div>
+  </Slide>
+)}
 
             {/* Slide 6: Traction & Metrics */}
             {currentSlide === 5 && (
