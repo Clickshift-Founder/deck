@@ -105,7 +105,7 @@ const JupiterClickBotDeck = () => {
                       <div className="text-xs text-slate-500 mt-1">$0 CAC</div>
                     </div>
                     <div className="bg-slate-800/50 backdrop-blur rounded-xl p-6 border border-slate-700 hover:border-green-500 transition-all">
-                      <div className="text-4xl font-bold text-green-400 mb-2">$1.2k</div>
+                      <div className="text-4xl font-bold text-green-400 mb-2">$5k</div>
                       <div className="text-sm text-slate-300">Volume/Week</div>
                       <div className="text-xs text-slate-500 mt-1">Growing</div>
                     </div>
@@ -207,9 +207,9 @@ const JupiterClickBotDeck = () => {
                 {/* REPLACE: Add screenshot of ClickBot interface here */}
                 <div className="bg-slate-800/50 rounded-2xl p-4 border border-slate-700 mb-8">
                   <div className="bg-slate-900/50 rounded-lg p-8 text-center">
-                    <p className="text-slate-400 mb-4">📸 REPLACE WITH CLICKBOT UI SCREENSHOT</p>
-                    <p className="text-sm text-slate-500">Show: /start menu, /buy interface, success message</p>
-                    { <img src="/clickbot-interface.png" alt="ClickBot Interface" className="w-full rounded-lg" />}
+                    <p className="text-slate-400 mb-4">📸 CLICKBOT UI SCREENSHOT</p>
+                    <p className="text-sm text-slate-500">/start menu, /buy interface, success message</p>
+                     <img src="/clickbot-interface.png" alt="ClickBot Interface" className="w-full rounded-lg" />
                   </div>
                 </div>
 
@@ -289,8 +289,8 @@ const JupiterClickBotDeck = () => {
                         <h3 className="text-2xl font-bold mb-2">Start Bot</h3>
                         <p className="text-slate-300 mb-4">User sends `/start` → Bot creates wallet instantly</p>
                         <div className="bg-slate-900/50 rounded-lg p-4">
-                          <p className="text-sm text-slate-400">📸 REPLACE: Screenshot of /start welcome screen</p>
-                        </div>
+                         <img src="/wallet-created.png" alt="Wallet Creation" className="w-full rounded-lg" />
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -302,7 +302,7 @@ const JupiterClickBotDeck = () => {
                         <h3 className="text-2xl font-bold mb-2">Buy Token</h3>
                         <p className="text-slate-300 mb-4">`/buy DezXAZ... 0.1` → Executes via Jupiter</p>
                         <div className="bg-slate-900/50 rounded-lg p-4">
-                          <p className="text-sm text-slate-400">📸 REPLACE: Screenshot of buy success message</p>
+                           <img src="/buy-executed.png" alt="ClickBot Interface" className="w-full rounded-lg" />
                         </div>
                       </div>
                     </div>
@@ -315,7 +315,7 @@ const JupiterClickBotDeck = () => {
                         <h3 className="text-2xl font-bold mb-2">Set Strategy</h3>
                         <p className="text-slate-300 mb-4">Click "📈 Trailing Profit" → Select 2x → Done!</p>
                         <div className="bg-slate-900/50 rounded-lg p-4">
-                          <p className="text-sm text-slate-400">📸 REPLACE: Screenshot of action buttons</p>
+                           <img src="/trailing.png" alt="ClickBot Interface" className="w-full rounded-lg" />
                         </div>
                       </div>
                     </div>
@@ -381,7 +381,7 @@ const JupiterClickBotDeck = () => {
         <ul className="space-y-4 text-slate-300 text-lg">
           <li className="flex items-start space-x-3">
             <span className="text-green-400">•</span>
-            <span>We drive $1.2k+/week volume to Jupiter</span>
+            <span>We drive $5k+/week volume to Jupiter</span>
           </li>
           <li className="flex items-start space-x-3">
             <span className="text-green-400">•</span>
@@ -403,17 +403,17 @@ const JupiterClickBotDeck = () => {
       <h3 className="text-2xl font-bold mb-6 text-center">Volume Growth Trajectory</h3>
       <div className="grid md:grid-cols-3 gap-6">
         <div className="text-center">
-          <div className="text-4xl font-bold text-orange-400 mb-2">$1.2k</div>
+          <div className="text-4xl font-bold text-orange-400 mb-2">$2.6k</div>
           <div className="text-slate-400">Current Weekly Volume</div>
           <div className="text-sm text-green-400 mt-1">All via Jupiter</div>
         </div>
         <div className="text-center">
-          <div className="text-4xl font-bold text-purple-400 mb-2">$750k</div>
+          <div className="text-4xl font-bold text-purple-400 mb-2">$62.4k</div>
           <div className="text-slate-400">Projected Q3 2026</div>
           <div className="text-sm text-green-400 mt-1">At 5K users</div>
         </div>
         <div className="text-center">
-          <div className="text-4xl font-bold text-blue-400 mb-2">$15M</div>
+          <div className="text-4xl font-bold text-blue-400 mb-2">$4.8M</div>
           <div className="text-slate-400">Projected Q2 2027</div>
           <div className="text-sm text-green-400 mt-1">At 50K users</div>
         </div>
@@ -447,7 +447,7 @@ const JupiterClickBotDeck = () => {
                   </div>
 
                   <div className="bg-gradient-to-br from-green-900/30 to-green-600/20 rounded-xl p-8 border border-green-500/30 text-center">
-                    <div className="text-5xl font-bold text-green-400 mb-2">$1.2k</div>
+                    <div className="text-5xl font-bold text-green-400 mb-2">$5k</div>
                     <div className="text-xl text-slate-300 mb-2">Weekly Volume</div>
                     <div className="text-sm text-slate-400">All via Jupiter</div>
                     <div className="text-2xl font-bold text-green-300 mt-4">Growing</div>
@@ -691,14 +691,14 @@ const JupiterClickBotDeck = () => {
                           <span className="text-2xl font-bold text-green-400">Primary</span>
                         </div>
                         <div className="text-sm text-slate-400">
-                          $1.2k weekly volume × 1% = $12K/week revenue
+                          $5k weekly volume × 1% = $50/week revenue
                         </div>
                       </div>
 
                       <div className="bg-slate-800/50 rounded-lg p-4">
                         <div className="flex justify-between items-center mb-2">
                           <span className="text-slate-300">Current Run Rate</span>
-                          <span className="text-2xl font-bold text-green-400">$625K/yr</span>
+                          <span className="text-2xl font-bold text-green-400">$2600/yr</span>
                         </div>
                         <div className="text-sm text-slate-400">
                           Growing 22% WoW
@@ -747,22 +747,22 @@ const JupiterClickBotDeck = () => {
                       </thead>
                       <tbody className="divide-y divide-slate-700">
                         <tr>
-                          <td className="px-6 py-4 font-semibold">Q4 2025</td>
+                          <td className="px-6 py-4 font-semibold">Q3 2026</td>
                           <td className="px-6 py-4 text-green-400">525</td>
-                          <td className="px-6 py-4 text-blue-400">$1.2k</td>
-                          <td className="px-6 py-4 font-bold text-purple-400">$625K</td>
+                          <td className="px-6 py-4 text-blue-400">$5k</td>
+                          <td className="px-6 py-4 font-bold text-purple-400">$2.6K</td>
                         </tr>
                         <tr className="bg-slate-800/30">
-                          <td className="px-6 py-4 font-semibold">Q2 2026</td>
+                          <td className="px-6 py-4 font-semibold">Q2 2027</td>
                           <td className="px-6 py-4 text-green-400">5,000</td>
-                          <td className="px-6 py-4 text-blue-400">$11M</td>
-                          <td className="px-6 py-4 font-bold text-purple-400">$5.7M</td>
+                          <td className="px-6 py-4 text-blue-400">$120k</td>
+                          <td className="px-6 py-4 font-bold text-purple-400">$62.4k</td>
                         </tr>
                         <tr>
-                          <td className="px-6 py-4 font-semibold">Q4 2026</td>
+                          <td className="px-6 py-4 font-semibold">Q4 2027</td>
                           <td className="px-6 py-4 text-green-400">50,000</td>
-                          <td className="px-6 py-4 text-blue-400">$110M</td>
-                          <td className="px-6 py-4 font-bold text-2xl text-purple-400">$57M</td>
+                          <td className="px-6 py-4 text-blue-400">$4.8M</td>
+                          <td className="px-6 py-4 font-bold text-2xl text-purple-400">$2.5M</td>
                         </tr>
                       </tbody>
                     </table>
@@ -803,7 +803,7 @@ const JupiterClickBotDeck = () => {
                       </div>
                       <div className="flex justify-between items-center pb-3 border-b border-slate-700">
                         <span className="text-slate-300 text-lg">Investment:</span>
-                        <span className="text-2xl font-bold">$150K</span>
+                        <span className="text-2xl font-bold">$95K</span>
                       </div>
                       <div className="flex justify-between items-center pb-3 border-b border-slate-700">
                         <span className="text-slate-300 text-lg">Valuation:</span>
@@ -849,16 +849,16 @@ const JupiterClickBotDeck = () => {
                     <div>
                       <h4 className="font-bold text-lg mb-3 text-orange-300">Technical Development (60%)</h4>
                       <ul className="space-y-2 text-slate-300">
-                        <li>• Voice AI integration ($50K)</li>
-                        <li>• Mobile app development ($30K)</li>
-                        <li>• Infrastructure scaling ($10K)</li>
+                        <li>• Voice AI integration ($35K)</li>
+                        <li>• Mobile app development ($15K)</li>
+                        <li>• Infrastructure scaling ($8K)</li>
                       </ul>
                     </div>
                     <div>
                       <h4 className="font-bold text-lg mb-3 text-blue-300">Growth & Operations (40%)</h4>
                       <ul className="space-y-2 text-slate-300">
-                        <li>• Community building ($30K)</li>
-                        <li>• Content creation ($15K)</li>
+                        <li>• Community building ($10K)</li>
+                        <li>• Content creation ($12K)</li>
                         <li>• Operations ($15K)</li>
                       </ul>
                     </div>
@@ -873,12 +873,12 @@ const JupiterClickBotDeck = () => {
                   </div>
                   <div className="bg-green-500/10 rounded-xl p-6 border border-green-500/30 text-center">
                     <div className="text-sm text-slate-400 mb-1">Volume Target</div>
-                    <div className="text-4xl font-bold text-green-400">$200M</div>
+                    <div className="text-4xl font-bold text-green-400">$15M</div>
                     <div className="text-xs text-slate-500 mt-1">Weekly (via Jupiter)</div>
                   </div>
                   <div className="bg-blue-500/10 rounded-xl p-6 border border-blue-500/30 text-center">
                     <div className="text-sm text-slate-400 mb-1">Revenue Target</div>
-                    <div className="text-4xl font-bold text-blue-400">$57M</div>
+                    <div className="text-4xl font-bold text-blue-400">$2.5M</div>
                     <div className="text-xs text-slate-500 mt-1">Annual run rate</div>
                   </div>
                 </div>
@@ -986,7 +986,7 @@ const JupiterClickBotDeck = () => {
                       <div className="text-sm text-slate-300">Daily Users</div>
                     </div>
                     <div className="bg-green-500/10 rounded-lg p-4 border border-green-500/30">
-                      <div className="text-3xl font-bold text-green-400">$1.2k</div>
+                      <div className="text-3xl font-bold text-green-400">$5k</div>
                       <div className="text-sm text-slate-300">Weekly Volume</div>
                     </div>
                     <div className="bg-purple-500/10 rounded-lg p-4 border border-purple-500/30">
