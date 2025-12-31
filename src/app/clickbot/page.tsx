@@ -105,7 +105,7 @@ const JupiterClickBotDeck = () => {
                       <div className="text-xs text-slate-500 mt-1">$0 CAC</div>
                     </div>
                     <div className="bg-slate-800/50 backdrop-blur rounded-xl p-6 border border-slate-700 hover:border-green-500 transition-all">
-                      <div className="text-4xl font-bold text-green-400 mb-2">$1.2M</div>
+                      <div className="text-4xl font-bold text-green-400 mb-2">$1.2k</div>
                       <div className="text-sm text-slate-300">Volume/Week</div>
                       <div className="text-xs text-slate-500 mt-1">Growing</div>
                     </div>
@@ -381,7 +381,7 @@ const JupiterClickBotDeck = () => {
         <ul className="space-y-4 text-slate-300 text-lg">
           <li className="flex items-start space-x-3">
             <span className="text-green-400">•</span>
-            <span>We drive $1.2M+/week volume to Jupiter</span>
+            <span>We drive $1.2k+/week volume to Jupiter</span>
           </li>
           <li className="flex items-start space-x-3">
             <span className="text-green-400">•</span>
@@ -403,7 +403,7 @@ const JupiterClickBotDeck = () => {
       <h3 className="text-2xl font-bold mb-6 text-center">Volume Growth Trajectory</h3>
       <div className="grid md:grid-cols-3 gap-6">
         <div className="text-center">
-          <div className="text-4xl font-bold text-orange-400 mb-2">$1.2M</div>
+          <div className="text-4xl font-bold text-orange-400 mb-2">$1.2k</div>
           <div className="text-slate-400">Current Weekly Volume</div>
           <div className="text-sm text-green-400 mt-1">All via Jupiter</div>
         </div>
@@ -447,7 +447,7 @@ const JupiterClickBotDeck = () => {
                   </div>
 
                   <div className="bg-gradient-to-br from-green-900/30 to-green-600/20 rounded-xl p-8 border border-green-500/30 text-center">
-                    <div className="text-5xl font-bold text-green-400 mb-2">$1.2M</div>
+                    <div className="text-5xl font-bold text-green-400 mb-2">$1.2k</div>
                     <div className="text-xl text-slate-300 mb-2">Weekly Volume</div>
                     <div className="text-sm text-slate-400">All via Jupiter</div>
                     <div className="text-2xl font-bold text-green-300 mt-4">Growing</div>
@@ -691,7 +691,7 @@ const JupiterClickBotDeck = () => {
                           <span className="text-2xl font-bold text-green-400">Primary</span>
                         </div>
                         <div className="text-sm text-slate-400">
-                          $1.2M weekly volume × 1% = $12K/week revenue
+                          $1.2k weekly volume × 1% = $12K/week revenue
                         </div>
                       </div>
 
@@ -749,7 +749,7 @@ const JupiterClickBotDeck = () => {
                         <tr>
                           <td className="px-6 py-4 font-semibold">Q4 2025</td>
                           <td className="px-6 py-4 text-green-400">525</td>
-                          <td className="px-6 py-4 text-blue-400">$1.2M</td>
+                          <td className="px-6 py-4 text-blue-400">$1.2k</td>
                           <td className="px-6 py-4 font-bold text-purple-400">$625K</td>
                         </tr>
                         <tr className="bg-slate-800/30">
@@ -985,7 +985,7 @@ const JupiterClickBotDeck = () => {
                       <div className="text-sm text-slate-300">Daily Users</div>
                     </div>
                     <div className="bg-green-500/10 rounded-lg p-4 border border-green-500/30">
-                      <div className="text-3xl font-bold text-green-400">$1.2M</div>
+                      <div className="text-3xl font-bold text-green-400">$1.2k</div>
                       <div className="text-sm text-slate-300">Weekly Volume</div>
                     </div>
                     <div className="bg-purple-500/10 rounded-lg p-4 border border-purple-500/30">
