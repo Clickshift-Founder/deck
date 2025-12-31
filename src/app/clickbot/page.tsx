@@ -408,13 +408,13 @@ const JupiterClickBotDeck = () => {
           <div className="text-sm text-green-400 mt-1">All via Jupiter</div>
         </div>
         <div className="text-center">
-          <div className="text-4xl font-bold text-purple-400 mb-2">$15M</div>
-          <div className="text-slate-400">Projected Q1 2026</div>
+          <div className="text-4xl font-bold text-purple-400 mb-2">$750k</div>
+          <div className="text-slate-400">Projected Q3 2026</div>
           <div className="text-sm text-green-400 mt-1">At 5K users</div>
         </div>
         <div className="text-center">
-          <div className="text-4xl font-bold text-blue-400 mb-2">$200M</div>
-          <div className="text-slate-400">Projected Q4 2026</div>
+          <div className="text-4xl font-bold text-blue-400 mb-2">$15M</div>
+          <div className="text-slate-400">Projected Q2 2027</div>
           <div className="text-sm text-green-400 mt-1">At 50K users</div>
         </div>
       </div>
@@ -553,7 +553,7 @@ const JupiterClickBotDeck = () => {
                         <li>• Telegram trading bot</li>
                         <li>• 525 daily active users</li>
                         <li>• Non-custodial</li>
-                        <li>• Voice commands (Q1 2026)</li>
+                        <li>• Voice commands (Q3 2026)</li>
                       </ul>
                     </div>
 
@@ -609,7 +609,7 @@ const JupiterClickBotDeck = () => {
                 <div className="space-y-6">
                   <div className="bg-gradient-to-r from-green-900/20 to-green-600/10 rounded-xl p-6 border border-green-500/30">
                     <div className="flex items-start space-x-4">
-                      <div className="text-3xl font-bold text-green-400">Q1 2026</div>
+                      <div className="text-3xl font-bold text-green-400">Q3 2026</div>
                       <div className="flex-1">
                         <h3 className="text-2xl font-bold mb-3 text-green-400">Voice Commands Launch</h3>
                         <ul className="space-y-2 text-slate-300">
@@ -624,7 +624,7 @@ const JupiterClickBotDeck = () => {
 
                   <div className="bg-gradient-to-r from-blue-900/20 to-blue-600/10 rounded-xl p-6 border border-blue-500/30">
                     <div className="flex items-start space-x-4">
-                      <div className="text-3xl font-bold text-blue-400">Q2 2026</div>
+                      <div className="text-3xl font-bold text-blue-400">Q4 2026</div>
                       <div className="flex-1">
                         <h3 className="text-2xl font-bold mb-3 text-blue-400">Mobile App + Chain Expansion</h3>
                         <ul className="space-y-2 text-slate-300">
@@ -639,7 +639,7 @@ const JupiterClickBotDeck = () => {
 
                   <div className="bg-gradient-to-r from-purple-900/20 to-purple-600/10 rounded-xl p-6 border border-purple-500/30">
                     <div className="flex items-start space-x-4">
-                      <div className="text-3xl font-bold text-purple-400">Q3 2026</div>
+                      <div className="text-3xl font-bold text-purple-400">Q2 2027</div>
                       <div className="flex-1">
                         <h3 className="text-2xl font-bold mb-3 text-purple-400">Advanced Trading Features</h3>
                         <ul className="space-y-2 text-slate-300">
@@ -654,7 +654,7 @@ const JupiterClickBotDeck = () => {
 
                   <div className="bg-gradient-to-r from-orange-900/20 to-orange-600/10 rounded-xl p-6 border border-orange-500/30">
                     <div className="flex items-start space-x-4">
-                      <div className="text-3xl font-bold text-orange-400">Q4 2026</div>
+                      <div className="text-3xl font-bold text-orange-400">Q4 2027</div>
                       <div className="flex-1">
                         <h3 className="text-2xl font-bold mb-3 text-orange-400">Protocol Layer</h3>
                         <ul className="space-y-2 text-slate-300">
@@ -962,8 +962,8 @@ const JupiterClickBotDeck = () => {
                       </div>
                       <div className="flex items-center justify-center space-x-3">
                         <span className="text-slate-400">💬</span>
-                        <a href="https://t.me/clickbot" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 transition-colors">
-                          t.me/clickbot
+                        <a href="https://t.me/clicksolbot" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 transition-colors">
+                          t.me/clicksolbot
                         </a>
                       </div>
                       <div className="flex items-center justify-center space-x-3">
@@ -976,7 +976,8 @@ const JupiterClickBotDeck = () => {
                   </div>
 
                   <div className="bg-gradient-to-r from-orange-500 to-purple-600 px-12 py-6 rounded-xl font-bold text-2xl mb-8 hover:from-orange-600 hover:to-purple-700 transition-all inline-block">
-                    Try ClickBot Live: t.me/clicksolbot
+                    <span className="text-slate-400">💬</span>
+                        <a href="https://t.me/clicksolbot" target="_blank" rel="noopener noreferrer"> Try ClickBot Live: t.me/clicksolbot</a>
                   </div>
 
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
