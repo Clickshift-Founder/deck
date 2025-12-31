@@ -17,7 +17,7 @@ const robotoMono = Roboto_Mono({
 // --- UPDATED METADATA ---
 export const metadata: Metadata = {
   // 1. Standard SEO (Tab Title and Search Snippet)
-  title: "ClickShift - Investor Deck: The Prediction Intelligence Protocol",
+  title: "ClickShift - Investor Deck: Powering Autonomous Agents On-chain with our Chip Technology",
   description: "A comprehensive pitch deck for ClickShift: Building the Bloomberg Terminal for Decentralized Finance (DeFi).",
 
   // 2. Favicon (for the browser tab icon)
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   // 3. Open Graph (for link sharing on platforms like Twitter, Facebook, LinkedIn)
   openGraph: {
     title: "ClickShift Investor Deck",
-    description: "The Bloomberg Terminal for DeFi - See our Vision for the Prediction Intelligence Protocol.",
+    description: "The Bloomberg Terminal for DeFi - See our Vision for the Chip that powers autonomous agents On-chain.",
     url: 'https://deck.clickshift.io',
     siteName: 'ClickShift',
     images: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image', // Best for sharing with an image
     title: "ClickShift Investor Deck",
     description: "The Bloomberg Terminal for DeFi - See our Vision.",
-    creator: '@YourTwitterHandle', // Optional: Your company's Twitter handle
+    creator: '@clickshift-ai', // Optional: Your company's Twitter handle
     images: ['/logo.png'], // Assumes logo.png is in your public folder
   },
 };
