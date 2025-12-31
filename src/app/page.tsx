@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, TrendingUp, Users, Target, Zap, DollarSign, Globe, Award, Rocket, Shield, Brain, Network, ArrowRight, Download, CheckCircle, AlertCircle, Activity, BarChart3, Layers, GitBranch, Star, ExternalLink } from 'lucide-react';
+import DeckNavigation from '@/components/DeckNavigation';
 
 const ClickShiftPitchDeck = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
@@ -61,6 +62,8 @@ const Slide: React.FC<SlideProps> = ({ children, className = "" }) => (
 
   return (
     <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden">
+            {/* Navigate through other decks */}
+      <DeckNavigation />
       
       {/* Background Effects */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
