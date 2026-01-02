@@ -293,7 +293,9 @@ const JupiterClickBotDeck = () => {
                         <h3 className="text-2xl font-bold mb-2">Start Bot</h3>
                         <p className="text-slate-300 mb-4">User sends `/start` → Bot creates wallet instantly</p>
                         <div className="bg-slate-900/50 rounded-lg p-4">
-                         <img src="/wallet-created.png" alt="Wallet Creation" className="w-full rounded-lg" />
+                         <img src="/wallet-created.png" 
+                         alt="Wallet Creation" 
+                         className="w-full max-w-3xl mx-auto rounded-lg object-contain max-h-[600px]" />
                           </div>
                       </div>
                     </div>
@@ -306,7 +308,9 @@ const JupiterClickBotDeck = () => {
                         <h3 className="text-2xl font-bold mb-2">Buy Token</h3>
                         <p className="text-slate-300 mb-4">`/buy DezXAZ... 0.1` → Executes via Jupiter</p>
                         <div className="bg-slate-900/50 rounded-lg p-4">
-                           <img src="/buy-executed.png" alt="ClickBot Interface" className="w-full rounded-lg" />
+                           <img src="/buy-executed.png" 
+                           alt="Buys at the safest position" 
+                           className="w-full max-w-3xl mx-auto rounded-lg object-contain max-h-[600px]" />
                         </div>
                       </div>
                     </div>
@@ -319,7 +323,9 @@ const JupiterClickBotDeck = () => {
                         <h3 className="text-2xl font-bold mb-2">Set Strategy</h3>
                         <p className="text-slate-300 mb-4">Click "📈 Trailing Profit" → Select 2x → Done!</p>
                         <div className="bg-slate-900/50 rounded-lg p-4">
-                           <img src="/trailing.png" alt="ClickBot Interface" className="w-full rounded-lg" />
+                           <img src="/trailing.png" 
+                           alt="Exits at 5x even if you set 2x target and market moves 6x"  
+                           className="w-full max-w-3xl mx-auto rounded-lg object-contain max-h-[600px]" />
                         </div>
                       </div>
                     </div>
