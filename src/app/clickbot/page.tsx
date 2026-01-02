@@ -844,7 +844,7 @@ const JupiterClickBotDeck = () => {
                 </div>
 
                 <div className="bg-gradient-to-r from-purple-600/20 to-orange-600/20 rounded-xl p-8 border border-purple-500/30 mb-8">
-                  <h3 className="text-2xl font-bold mb-6 text-center text-purple-400">Use of Funds ($150K)</h3>
+                  <h3 className="text-2xl font-bold mb-6 text-center text-purple-400">Use of Funds ($95K)</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <h4 className="font-bold text-lg mb-3 text-orange-300">Technical Development (60%)</h4>
