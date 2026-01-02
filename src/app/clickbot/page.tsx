@@ -259,7 +259,7 @@ const JupiterClickBotDeck = () => {
                       <h3 className="text-2xl font-bold">Voice Ready</h3>
                     </div>
                     <ul className="space-y-2 text-slate-300">
-                      <li>🚀 Q1 2026: Voice commands</li>
+                      <li>🚀 Q3 2026: Voice commands</li>
                       <li>🚀 "Buy 1 SOL of BONK"</li>
                       <li>🚀 "Set 2x trailing profit"</li>
                       <li>🚀 First voice-enabled trading bot</li>
@@ -403,7 +403,7 @@ const JupiterClickBotDeck = () => {
       <h3 className="text-2xl font-bold mb-6 text-center">Volume Growth Trajectory</h3>
       <div className="grid md:grid-cols-3 gap-6">
         <div className="text-center">
-          <div className="text-4xl font-bold text-orange-400 mb-2">$2.6k</div>
+          <div className="text-4xl font-bold text-orange-400 mb-2">$5k</div>
           <div className="text-slate-400">Current Weekly Volume</div>
           <div className="text-sm text-green-400 mt-1">All via Jupiter</div>
         </div>
