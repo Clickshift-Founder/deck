@@ -873,7 +873,7 @@ const JupiterClickBotDeck = () => {
                   </div>
                   <div className="bg-green-500/10 rounded-xl p-6 border border-green-500/30 text-center">
                     <div className="text-sm text-slate-400 mb-1">Volume Target</div>
-                    <div className="text-4xl font-bold text-green-400">$15M</div>
+                    <div className="text-4xl font-bold text-green-400">$4.8M</div>
                     <div className="text-xs text-slate-500 mt-1">Weekly (via Jupiter)</div>
                   </div>
                   <div className="bg-blue-500/10 rounded-xl p-6 border border-blue-500/30 text-center">
