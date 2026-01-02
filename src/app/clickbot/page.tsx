@@ -204,14 +204,18 @@ const JupiterClickBotDeck = () => {
                   ClickBot: Trading at the Speed of Thought
                 </h2>
                 
-                {/* REPLACE: Add screenshot of ClickBot interface here */}
-                <div className="bg-slate-800/50 rounded-2xl p-4 border border-slate-700 mb-8">
-                  <div className="bg-slate-900/50 rounded-lg p-8 text-center">
-                    <p className="text-slate-400 mb-4">📸 CLICKBOT UI SCREENSHOT</p>
-                    <p className="text-sm text-slate-500">/start menu, /buy interface, success message</p>
-                     <img src="/clickbot-interface.png" alt="ClickBot Interface" className="w-full rounded-lg" />
-                  </div>
-                </div>
+                    {/* REPLACE: Add screenshot of ClickBot interface here */}
+      <div className="bg-slate-800/50 rounded-2xl p-4 border border-slate-700 mb-8">
+        <div className="bg-slate-900/50 rounded-lg p-8 text-center">
+          <p className="text-slate-400 mb-4">📸 CLICKBOT UI SCREENSHOT</p>
+          <p className="text-sm text-slate-500 mb-4">/start menu, /buy interface, success message</p>
+          <img 
+            src="/clickbot-interface.png" 
+            alt="ClickBot Interface" 
+            className="w-full max-w-3xl mx-auto rounded-lg object-contain max-h-[600px]" 
+          />
+        </div>
+      </div>
 
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-gradient-to-br from-green-900/30 to-green-600/20 rounded-xl p-6 border border-green-500/30">
